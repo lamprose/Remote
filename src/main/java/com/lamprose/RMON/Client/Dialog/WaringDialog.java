@@ -1,4 +1,4 @@
-package com.lamprose.RMON.Client.Frame.Dialog;
+package com.lamprose.RMON.Client.Dialog;
 
 import com.lamprose.RMON.Client.Frame.Client;
 

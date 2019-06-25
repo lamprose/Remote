@@ -1,7 +1,7 @@
-package com.lamprose.RMON.Client.Frame.Dialog;
+package com.lamprose.RMON.Client.Dialog;
 
 import com.lamprose.RMON.Client.Frame.Client;
-import com.lamprose.RMON.Client.Frame.Tool.ScanDeviceTool;
+import com.lamprose.RMON.Client.Tool.ScanDeviceTool;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -31,7 +31,9 @@ public class ConnectDialog extends JDialog {
     }
     private void initFrame(){
         Object[][] data={
-                {"a","10.199.224.152","2019-06-24 11:35"}
+                {"a","10.199.224.152","2019-06-24 11:35"},
+                {"b","192.168.3.7","2019-06-23 11:35"},
+                {"c","192.168.3.8","2019-06-23 11:35"},
         };
         String[] colName={"主机名称","主机地址","在线时间"};
         // 以Names和playerInfo为参数，创建一个表格

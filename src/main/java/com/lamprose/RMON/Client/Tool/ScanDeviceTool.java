@@ -1,6 +1,5 @@
-package com.lamprose.RMON.Client.Frame.Tool;
+package com.lamprose.RMON.Client.Tool;
 
-import javax.swing.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
